@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+models/
+data_local/
+external/
+outputs/
+runs/*
+!runs/fovea/
+runs/fovea/*
+!runs/fovea/forecasters/
+!runs/fovea/mmerwtrain/
+runs/fovea/mmerwtrain/*
+!runs/fovea/mmerwtrain/*_config.json
+!runs/fovea/mmerwtrain/labels_lite.pt
+logs/

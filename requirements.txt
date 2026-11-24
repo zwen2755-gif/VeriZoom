@@ -1,0 +1,11 @@
+torch>=2.8
+transformers>=4.57,<5      # Qwen2.5-VL and Qwen3-VL; Qwen3.5 needs transformers>=5 in a separate environment
+accelerate>=1.10
+numpy
+pillow
+pandas
+pyarrow
+scipy
+matplotlib
+pymupdf
+opencv-python              # AttWarp baseline only
